@@ -1,3 +1,8 @@
+## Live at:
+https://plus-r.cr.kevbot.xyz/
+
+[The melee version](https://replay.kevbot.xyz/)
+
 ## Purpose
 
 upload and store slippi replays  
