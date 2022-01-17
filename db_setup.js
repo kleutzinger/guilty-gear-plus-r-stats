@@ -9,9 +9,6 @@ uses the environment variables:
   PGPORT=...
 */
 var config = {
-  ssl                     : {
-    rejectUnauthorized : false
-  },
   max                     : 5,
   idleTimeoutMillis       : 10000,
   connectionTimeoutMillis : 2000
