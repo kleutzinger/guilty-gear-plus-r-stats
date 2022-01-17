@@ -29,8 +29,5 @@
     "dev": "nodemon index.js"
   },
   "author": "",
-  "license": "ISC",
-  "engines": {
-    "node": "14.x"
-  }
+  "license": "ISC"
 }
