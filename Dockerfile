@@ -11,7 +11,7 @@ WORKDIR /app
 COPY requirements.txt package.json yarn.lock ./
 
 RUN yarn --frozen-lockfile
-RUN apk add python3 py3-pip
+RUN apk add --no-cache python3 py3-pip make gcc g++
 RUN python3 -m pip install -r requirements.txt
 
 COPY . .
