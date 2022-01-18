@@ -3,4 +3,5 @@ node_modules
 tmp/*
 test.*
 *test.*
-*.slp
+*.slp.venv/
+.venv/

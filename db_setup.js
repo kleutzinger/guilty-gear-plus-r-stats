@@ -39,7 +39,7 @@ module.exports = pool;
 // `;
 
 const slp_history = `
-  CREATE TABLE slp_history(
+  CREATE TABLE IF NOT EXISTS "slp_history"(
   id         SERIAL  NOT NULL PRIMARY KEY,
   hosted_filename   TEXT    NOT NULL DEFAULT '',
   dl_url     TEXT    NOT NULL DEFAULT '',

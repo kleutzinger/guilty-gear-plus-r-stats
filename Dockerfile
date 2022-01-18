@@ -8,9 +8,11 @@ ARG PGPORT=${PGPORT}
 
 WORKDIR /app
 
-COPY package.json yarn.lock ./
+COPY requirements.txt package.json yarn.lock ./
 
 RUN yarn --frozen-lockfile
+RUN apk add python3 py3-pip
+RUN python3 -m pip install -r requirements.txt
 
 COPY . .
 
